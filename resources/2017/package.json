@@ -1,21 +1,9 @@
 {
   "devDependencies": {
-    "classlist-polyfill": "^1.0.3",
-    "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.12.4",
-    "custom-event-polyfill": "0.3.0",
-    "dom-delegate": "^2.0.3",
-    "es6-promise": "^4.0.5",
-    "expose-loader": "^0.7.3",
-    "fixpack": "^2.3.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-cached": "^1.1.1",
-    "gulp-cli": "^1.2.2",
     "gulp-convert-encoding": "^1.0.0",
-    "gulp-ejs": "^2.3.0",
-    "gulp-htmllint": "0.0.11",
-    "gulp-htmltidy": "^0.2.2",
     "gulp-imagemin": "^2.4.0",
     "imagemin-jpegoptim": "^4.1.0",
     "imagemin-pngquant": "^4.2.0",
@@ -26,7 +14,6 @@
     "gulp-rename": "1.2.2",
     "gulp-replace": "^0.5.4",
     "gulp-sass": "^3.1.0",
-    "gulp-stylefmt": "^1.1.0",
     "gulp-uglify": "2.1.2",
     "gulp-watch": "^4.3.11",
     "matchmedia-polyfill": "^0.3.0",
@@ -35,15 +22,5 @@
     "underscore": "1.8.3",
     "velocity-animate": "1.4.3",
     "webpack": "2.2.1"
-  },
-  "private": true,
-  "scripts": {
-    "fixpack": "fixpack",
-    "gulp": "gulp",
-    "test": "webpack --config webpack.config.coffee --progress --profile --colors",
-    "js-develop": "webpack --devtool inline-source-map",
-    "js-watch": "npm ru webpack -- --devtool inline-source-map --watch",
-    "js-minify": "NODE_ENV=production webpack -p",
-    "webpack": "webpack --colors --display-error-details --progress"
   }
 }
